@@ -102,4 +102,12 @@ body {
 
 }
 
-  
+.nav-horizontal input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  margin-left: 50%;
+  width: 40%;
+  border-radius: 5px;
+}
