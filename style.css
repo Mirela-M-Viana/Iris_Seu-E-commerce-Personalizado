@@ -1,0 +1,105 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav-horizontal {
+    background-color: rgb(18, 180, 29);
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-horizontal h1 {
+    margin-left: 15px;
+    color: white;
+    size: 20px;
+  }
+
+  .nav-horizontal a {
+    color: white;
+    text-decoration: none;
+  }
+
+.nav-vertical {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh; /* altura total da tela */
+  width: 200px;
+  margin-top: 60px;
+}
+
+.nav-vertical :hover {
+    background-color: #3a3a3a5e;
+}
+
+.nav-vertical a {
+  display: block;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.conteudo {
+  margin-left: 200px; /* distância para não ficar atrás da nav */
+  padding: 20px;
+}
+
+.conteudo h1 {
+    text-align: center;
+}
+
+.conteudo p {
+    text-align: center;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+
+.eletronicos{
+    background-color: #ff8c00;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    /* display: flex;
+    justify-content: center; 
+    align-items: center;     */
+    
+}
+
+.automotores{
+    background-color: #ff4d00;
+    height: 100px;
+    font-size: 19px;
+    font-weight: bold;
+}
+    
+.moda{
+    background-color: #dc36a5;
+    height: 100px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.musicais{
+    background-color: #6f087a;
+    height: 100px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.esportivos{
+    background-color: #00aaff;
+    height: 100px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+  
