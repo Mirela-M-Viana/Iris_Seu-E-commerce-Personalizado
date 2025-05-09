@@ -2,6 +2,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+
+  overflow-y: hidden;
 }
 
 .nav-horizontal {
@@ -27,8 +29,8 @@ body {
   top: 0;
   left: 0;
   height: 100vh; /* altura total da tela */
-  width: 200px;
-  margin-top: 60px;
+  width: 12%;
+  margin-top: 3.2%;
 }
 
 .nav-vertical :hover {
@@ -43,8 +45,8 @@ body {
 }
 
 .conteudo {
-  margin-left: 200px; /* distância para não ficar atrás da nav */
-  padding: 20px;
+  margin-left: 12%; /* distância para não ficar atrás da nav */
+  padding: 2%;
 }
 
 .conteudo h1 {
@@ -55,15 +57,15 @@ body {
     text-align: center;
     background-color: #e0e0e0;
     border-radius: 10px;
-    padding: 15px;
+    padding: 2%;
     font-size: 16px;
 }
 
 
 .eletronicos{
     background-color: #ff8c00;
-    height: 100px;
-    font-size: 20px;
+    height: 10%;
+    font-size: 19px;
     font-weight: bold;
     /* display: flex;
     justify-content: center; 
@@ -73,14 +75,14 @@ body {
 
 .automotores{
     background-color: #ff4d00;
-    height: 100px;
+    height: 10%;
     font-size: 19px;
     font-weight: bold;
 }
     
 .moda{
     background-color: #dc36a5;
-    height: 100px;
+    height: 10%;
     font-size: 19px;
     font-weight: bold;
 
@@ -88,7 +90,7 @@ body {
 
 .musicais{
     background-color: #6f087a;
-    height: 100px;
+    height: 10%;
     font-size: 19px;
     font-weight: bold;
 
@@ -96,18 +98,86 @@ body {
 
 .esportivos{
     background-color: #00aaff;
-    height: 100px;
+    height: 10%;
     font-size: 19px;
     font-weight: bold;
 
 }
 
 .nav-horizontal input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
+  padding: 0.3%;
+  margin-top: 0.4%;
   font-size: 15px;
   border: none;
   margin-left: 50%;
   width: 40%;
   border-radius: 5px;
+}
+
+/*Container dos Cards*/
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2%;
+  padding-bottom: 6%;
+
+  overflow-y: scroll;
+
+  height: 30em;
+  
+}
+
+/* Estilização do card */
+.card {
+  background-color: #ffffff;
+  width: 20%;
+  border-radius: 16px;
+  padding: 2% 0 2% ;
+  text-align: center;
+  margin: 2% 0 2% 7%;
+
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  border: 1px solid #d6d3d3;
+}
+
+
+.card img {
+  width: 55%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  font-size: 20px;
+  color: #2d2d2d;
+  font-weight: 500;
+  margin: 5% 0 4%;
+}
+
+.preco {
+  font-size: 20px;
+  font-weight: 600; /*deixa a fonte grossa */
+  color: #3cb371;
+  margin: 5% 0;
+}
+
+.titulo_produtos {
+  font-size: 2rem;
+  text-align: center;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+}
+
+.text_produtos {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 50px auto;
+  font-size: 19px;
+  line-height: 1.6;
+  text-align: center;
+  background-color: #fafafa;
 }
